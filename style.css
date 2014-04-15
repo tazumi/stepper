@@ -1,0 +1,60 @@
+/* navigaton */
+#navigation_block {
+    display: inline-block;
+    position: absolute;
+    top:90%;
+    left:45%;
+}
+#left_button{
+
+}
+
+#right_button {
+
+}
+
+/* variabled */
+#focused {
+
+}
+
+.right {
+ left:0;
+}
+
+.left {
+left:400px;
+}
+
+/* slides */
+#global_slider {
+    width:200px;
+    height: 200px;
+}
+
+#sliders_block{
+    display: block;
+    position:relative;
+    float:left;
+    overflow:hidden;
+    width:35%;
+
+
+
+}
+
+
+.slide{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    float:left;
+    top: -200px;
+    width:200px;
+    height: 200px;
+}
+
+.slide:last-child{
+    top: -400px;
+}
+
